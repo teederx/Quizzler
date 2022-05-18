@@ -35,8 +35,6 @@ class _QuizPageState extends State<QuizPage> {
   var alertStyle = AlertStyle(
     animationType: AnimationType.grow,
     animationDuration: Duration(milliseconds: 400),
-
-
   );
 
   void checkAnswer(bool userPickedAnswer) {
